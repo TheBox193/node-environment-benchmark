@@ -1,0 +1,12 @@
+{
+  "name": "node-environment-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmarking a Node Environment",
+  "main": "index.js",
+  "repository": "d",
+  "author": "Sir.Nathan (TheBox193)",
+  "license": "MIT",
+  "dependencies": {
+    "nanobench": "^2.1.1"
+  }
+}
