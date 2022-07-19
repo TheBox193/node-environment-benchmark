@@ -1,6 +1,6 @@
 var bench = require("nanobench");
 
-bench("sha256 1M times", function (b) {
+bench("sha256 2M times", function (b) {
   var crypto = require("crypto");
   var data = new Buffer.from("hello world");
 
@@ -13,7 +13,7 @@ bench("sha256 1M times", function (b) {
   b.end();
 });
 
-bench("sha1 1M times", function (b) {
+bench("sha1 2M times", function (b) {
   var crypto = require("crypto");
   var data = new Buffer.from("hello world");
 
